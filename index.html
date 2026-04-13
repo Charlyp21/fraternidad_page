@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>La Fraternidad | Club Universitario</title>
+    <title>La Fraternidad | Inicio</title>
     <meta name="description" content="Club universitario con espiritu medieval: comunidad, rutas, comida y aventuras estudiantiles.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 <body>
     <header class="site-header" id="top">
         <div class="container nav-wrap">
-            <a class="brand" href="#home" aria-label="Inicio La Fraternidad">
+            <a class="brand" href="./index.html" aria-label="Inicio La Fraternidad">
                 <img src="./assets/fraternidad.jpeg" alt="Escudo de La Fraternidad" class="brand-logo">
                 <div>
                     <p class="brand-kicker">Club Universitario</p>
@@ -23,18 +23,18 @@
             <button class="menu-toggle" aria-expanded="false" aria-controls="main-menu">Menu</button>
             <nav>
                 <ul id="main-menu" class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#acerca">Acerca de</a></li>
-                    <li><a href="#comida">Comida</a></li>
-                    <li><a href="#lugares">Lugares</a></li>
-                    <li><a href="#unete">Unete</a></li>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./paginas/acerca.html">Acerca de</a></li>
+                    <li><a href="./paginas/comida.html">Comida</a></li>
+                    <li><a href="./paginas/lugares.html">Lugares</a></li>
+                    <li><a href="./paginas/unete.html">Unete</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section id="home" class="hero section">
+        <section class="hero section">
             <div class="container hero-content">
                 <p class="eyebrow">Anno Universitatis MMXXVI</p>
                 <h1>Bienvenido al Salon de La Fraternidad</h1>
@@ -42,80 +42,31 @@
                     Una comunidad para estudiantes que quieren compartir rutas, banquetes universitarios,
                     apoyo entre companeros y memorias epicas durante su vida academica.
                 </p>
-                <a href="#unete" class="btn-primary">Unete al club</a>
+                <a href="./paginas/unete.html" class="btn-primary">Unete al club</a>
             </div>
         </section>
 
-        <section id="acerca" class="section parchment">
-            <div class="container grid-2">
-                <article class="card">
-                    <h2>Acerca de La Fraternidad</h2>
-                    <p>
-                        Somos un club universitario inspirado en la camaraderia medieval: cooperacion,
-                        conocimiento y aventura para guiar a nuevos y antiguos miembros del campus.
-                    </p>
-                </article>
-                <article class="card">
-                    <h2>Nuestros pilares</h2>
-                    <ul class="list">
-                        <li>Comunidad activa y acompanamiento academico.</li>
-                        <li>Exploracion de rutas y edificios clave del campus.</li>
-                        <li>Recomendaciones de comida para cada presupuesto.</li>
-                    </ul>
-                </article>
-            </div>
-        </section>
-
-        <section id="comida" class="section">
+        <section class="section parchment">
             <div class="container">
-                <h2>Comida del Reino</h2>
-                <p class="section-intro">Seccion preparada para agregar recomendaciones de lugares para comer dentro y fuera del campus.</p>
+                <h2>Explora nuestras secciones</h2>
+                <p class="section-intro">Ahora cada seccion vive en su propia pagina para una navegacion mas clara.</p>
                 <div class="placeholder-grid">
                     <article class="placeholder-card">
-                        <h3>Recomendacion 1</h3>
-                        <p>Agrega aqui nombre, ubicacion, rango de precio y plato recomendado.</p>
+                        <h3>Acerca de</h3>
+                        <p>Conoce la historia, pilares y vision de la fraternidad.</p>
+                        <a class="btn-primary" href="./paginas/acerca.html">Ir a Acerca de</a>
                     </article>
                     <article class="placeholder-card">
-                        <h3>Recomendacion 2</h3>
-                        <p>Espacio listo para menu estudiantil, horarios y notas de la comunidad.</p>
+                        <h3>Comida</h3>
+                        <p>Recomendaciones de restaurantes, precios y platos para estudiantes.</p>
+                        <a class="btn-primary" href="./paginas/comida.html">Ir a Comida</a>
                     </article>
                     <article class="placeholder-card">
-                        <h3>Recomendacion 3</h3>
-                        <p>Incluye aqui opciones vegetarianas, combos o promociones semanales.</p>
+                        <h3>Lugares</h3>
+                        <p>Rutas del campus, edificios utiles y zonas de estudio recomendadas.</p>
+                        <a class="btn-primary" href="./paginas/lugares.html">Ir a Lugares</a>
                     </article>
                 </div>
-            </div>
-        </section>
-
-        <section id="lugares" class="section parchment">
-            <div class="container">
-                <h2>Lugares y Rutas</h2>
-                <p class="section-intro">Seccion preparada para anadir rutas a edificios, puntos de interes y mapas internos.</p>
-                <div class="placeholder-grid">
-                    <article class="placeholder-card">
-                        <h3>Ruta Principal</h3>
-                        <p>Agrega ruta desde entrada principal a salones y areas clave.</p>
-                    </article>
-                    <article class="placeholder-card">
-                        <h3>Edificios Recomendados</h3>
-                        <p>Espacio para listar bibliotecas, laboratorios y zonas de estudio.</p>
-                    </article>
-                    <article class="placeholder-card">
-                        <h3>Mapa del Campus</h3>
-                        <p>Placeholder para integrar imagen o enlace a un mapa interactivo.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="unete" class="section">
-            <div class="container card join-card">
-                <h2>Unete a la Fraternidad</h2>
-                <p>
-                    Haz parte de nuestras actividades, reuniones y expediciones universitarias.
-                    Comparte conocimiento y crea alianzas para tu camino academico.
-                </p>
-                <a href="#top" class="btn-primary">Volver al inicio</a>
             </div>
         </section>
     </main>
@@ -127,9 +78,9 @@
                 <p>Completa los enlaces con tus canales oficiales.</p>
             </div>
             <ul class="social-links">
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Discord</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Bot de Telegram</a></li>
+                <li><a href="https://discord.gg/yourinvite" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                <li><a href="https://chat.whatsapp.com/Cyn61HVEgZJ2REvMO6CGEy" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+                <li><a href="https://t.me/Unificadorbot" target="_blank" rel="noopener noreferrer">Bot de Telegram</a></li>
             </ul>
         </div>
     </footer>
